@@ -4,8 +4,8 @@ import os
 from urllib.parse import urljoin, urlparse
 import re  # Import the regular expression module for more refined file name cleaning
 
-url_base = "https://www.nice.org.uk"
-url_listing = "https://www.nice.org.uk/guidance/conditions-and-diseases/cancer/lung-cancer/products?ProductType=Guidance&Status=Published"
+url_base = "https://www.nice.org.uk" # Replace it with the target url
+url_listing = "https://www.nice.org.uk/guidance/conditions-and-diseases/cancer/lung-cancer/products?ProductType=Guidance&Status=Published" # Replace it with the target url
 
 folder_name = 'downloads_pdf'
 if not os.path.exists(folder_name):
