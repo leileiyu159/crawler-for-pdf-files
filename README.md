@@ -1,6 +1,7 @@
 # crawler-for-pdf-files
 Automatically batch crawl pdf files from websites, such as guides and academic papers, to facilitate academic research
 Note：
+
 1：If you use a vpn to access the website，Remember to configure your proxies in proxies.（Prevent SSL/TLS handshake failure during the proxy connection process）
 
 2：This code crawled the lung cancer guidance from the NICE website as an example.If the website you want to crawl has an anti-crawling mechanism, remember to add the anti-crawling code by yourself.
